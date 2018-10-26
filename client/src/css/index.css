@@ -1,0 +1,107 @@
+/* ================================================== */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* ================================================== */
+
+body {
+	background-color: #aadaff;
+	font-size: 16px;
+}
+
+body * {
+	font-family: "marmelad";
+	font-size: 1em;
+}
+
+/* ================================================== */
+
+div.main-wrapper {
+	min-height: 1em;
+	width: 50%;
+	margin: 0 auto;
+}
+
+/* ================================================== */
+
+form {
+	padding: 1em;
+}
+
+input {
+	background-color: transparent;
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 1em 0;
+}
+
+*::placeholder {
+	color: #000000;
+	opacity: .6;
+}
+
+/* ================================================== */
+
+hr {
+	margin-bottom: 2em;
+}
+
+/* ================================================== */
+
+section:first-of-type {
+	margin-bottom: 2em;
+}
+
+section h2 {
+	margin-left: 1em;
+	margin-bottom: 1em;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 1em;
+}
+
+ul li {
+	background-color: #ffffff;
+	padding: 1em;
+	margin-bottom: 1em;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+ul li button {
+	background-color: transparent;
+	border: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: .65em;
+	right: .5em;
+	outline: none;
+}
+
+button img {
+	max-height: 2em;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:nth-child(2) {
+	right: 2.75em;
+	opacity: .6;
+	
+}
+
+button:nth-child(2):hover {
+	right: 2.75em;
+	opacity: 1;
+}
+
+/* ================================================== */
